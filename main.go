@@ -8,6 +8,11 @@ func main() {
 	k := 3
 	result := s.Rotate(nums, k)
 	fmt.Println(result) // Output: [5,6,7,1,2,3,4]
+
+	// Generate Pascal's Triangle with 5 rows
+	v := _Solution{}
+	resultTriangle := v.Generate(5)
+	fmt.Println(resultTriangle)
 }
 
 // Solution is a struct to define the receiver type
