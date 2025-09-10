@@ -13,6 +13,12 @@ func main() {
 	v := _Solution{}
 	resultTriangle := v.Generate(5)
 	fmt.Println(resultTriangle)
+
+	// Sorted Squares
+	r := RoyxatKvadrati{}
+	nums2 := []int{-4, -1, 0, 3, 10}
+	resultSquares := r.SortedSquares(nums2)
+	fmt.Println(resultSquares) // Output: [0,1,9,16,100]
 }
 
 // Solution is a struct to define the receiver type
